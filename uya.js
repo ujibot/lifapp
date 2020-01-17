@@ -10,7 +10,7 @@ function getP(){
         document.getElementById('textx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: atob('bGluZTovL2FwcC8xNjI2NjIyNTA2LVJYSjFnM2RCP3R5cGU9dGV4dCZ0ZXh0PVlvdXIlMjBUZXh0Cgp0eXBlID0+IHRleHQKdGV4dCA9PiB5b3VyIHRleHQ=')
+                text: atob('bGluZTovL2FwcC8xNjUzNzc4MTgzLW5lZEtkSmJQP3R5cGU9dGV4dCZ0ZXh0PVlvdXIlMjBUZXh0Cgp0eXBlID0+IHRleHQKdGV4dCA9PiB5b3VyIHRleHQ=')
             }]).then(function () {
                 liff.closeWindow();
             });
