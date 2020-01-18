@@ -120,7 +120,7 @@ function makeAudio(){
         liff.sendMessages([{
             type: 'audio',
             originalContentUrl: getParameterByName('link'),
-            duration: 60000
+            duration: 360000
         }]).then(function () {
             liff.closeWindow();
         });
